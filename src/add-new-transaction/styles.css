@@ -1,0 +1,43 @@
+ 
+.modal-container{
+    position: relative;
+    top:35%;  
+    left:35%;  
+    text-align: left;
+    background-color: grey;
+    width: 280px;
+    height:250px; 
+    border:1px solid rgb(3, 0, 0); 
+    padding-top:30px;
+    padding-left:50px;
+    padding-right:30px;
+    font-size: 15px;
+    font-style: normal;
+}  
+
+.modal-container ul{
+    display: flex;
+    list-style: none;
+    border:0px solid black;  
+    padding:0px;
+    font-size: 15px;
+    margin-top: 0;
+}
+ 
+.btn{ 
+    border:0px solid black;   
+    display: flex;
+    list-style: none;  
+    font-size: 15px;  
+    width:150px;
+    margin-left: 50px;
+}
+
+
+.btn li{ 
+    border:0px solid red;   
+    display: flex;
+    list-style: none;  
+    font-size: 15px; 
+    margin-left:15px;  
+}

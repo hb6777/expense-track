@@ -5,6 +5,6 @@
 export default function ExpenseItem({item}){
 
     return(<div>
-        <p>{item.type} - {item.description} - {item.amount} </p>
+        <p>{item.description} <span style={{padding:'10px'}}>${item.amount}</span> </p> 
     </div>);
 }

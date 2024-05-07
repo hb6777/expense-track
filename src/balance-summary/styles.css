@@ -1,0 +1,44 @@
+.main-index{
+   width:80%;
+   border:0px solid black; 
+   display:flex;
+   margin:auto;
+} 
+
+.balance-summary-container{
+    display:flex;  
+    flex-direction: column;   
+    margin-left:180px; 
+    margin-top:30px;  
+    padding-top:10px;
+    width:300px;
+    background-color: rgb(170, 248, 154);
+    border-radius: 10px; 
+    text-align: center;
+    height:210px;
+    font-weight:bold;
+    font-size: 30px;
+    border:0px solid blue; 
+}
+
+.chart-container{  
+    display:flex;  
+    text-align: center;
+    border:0px solid pink; 
+    position:relative;
+    float:right;
+    margin:auto; 
+}
+
+.balance-summary-container p{
+    display:flex;  
+    margin: auto;
+    border:0px solid red; 
+    font-weight:bold;
+    margin-bottom:3px;
+    margin-top:10px;
+    font-size: 17px;
+    width:190px;
+    justify-content: center;
+}
+  

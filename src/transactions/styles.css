@@ -1,0 +1,52 @@
+.all-transactions-container{  
+    border:1px solid black; 
+    justify-content: center; 
+    margin:auto;
+    width:60%;
+    margin-top:30px; 
+    margin-bottom: 30px; 
+}
+
+.title-main{
+    display: flex;
+    justify-items: center;
+    border:0px solid Black;   
+    width:100%;
+    margin-top:30px;
+}
+
+.title-containerI{ 
+  /* background-color: rgb(123, 192, 19); */
+  border:0px solid red;   
+  font-weight: bold;
+  font-size:20px;
+  color:blue;
+  padding:5px;  
+  width:50%; 
+  text-align: center;
+}
+
+.title-containerE{ 
+    /* background-color:rgb(123, 192, 19); */
+  border:0px solid blue;   
+  font-size:20px;
+  font-weight: bold;
+  color:brown;
+  padding:5px;  
+  width:50%; 
+  text-align: center;
+}
+
+.all-transactions-container.income-container{
+    display: flex; 
+    flex-direction: column;
+    border:0px solid red;
+    color:blue; 
+}
+
+.expense-container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid red;   color:red; 
+    width:400px;
+}
